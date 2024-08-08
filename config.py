@@ -1,3 +1,3 @@
 class Config:
-    DATABASE_URI = 'sqlite:///library.db'
+    DATABASE_URI = 'sqlite:///C:/Projects/library management/library.db'
     DEBUG = True
