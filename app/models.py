@@ -11,7 +11,7 @@ class Books(SQLObject):
 class Members(SQLObject):
     name = StringCol()
     email = StringCol()
-    debt = IntCol()
+    debt = IntCol(default=0)
 
 class Transactions(SQLObject):
     member = IntCol()

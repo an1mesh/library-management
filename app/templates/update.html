@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}
+    Update
+{% endblock title %}
+
+{% block body %}
+<div class="container my-3">
+    <h2>Update book entry</h2>
+    <form action="/books/update/{{book.id}}" method="POST">
+      <div class="row my-3">
+        <div class="col">
+          <input
+            type="text"
+            value="{{book.title}}"
+            class="form-control"
+            placeholder="Title"
+            name="title"
+            id="title"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            value="{{book.author}}"
+            class="form-control"
+            placeholder="Author"
+            name="author"
+            id="author"
+          />
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col">
+          <input
+            type="text"
+            value="{{book.isbn}}"
+            class="form-control"
+            placeholder="ISBN"
+            name="isbn"
+            id="isbn"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            value="{{book.publisher}}"
+            class="form-control"
+            placeholder="Publisher"
+            name="publisher"
+            id="publisher"
+          />
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col">
+          <input
+            type="number"
+            value="{{book.pages}}"
+            class="form-control"
+            placeholder="Pages"
+            name="pages"
+            id="pages"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="number"
+            value="{{book.quantity}}"
+            class="form-control"
+            placeholder="Quantity"
+            name="quantity"
+            id="quantity"
+          />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+  </div>
+{% endblock body %}
