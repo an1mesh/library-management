@@ -1,0 +1,118 @@
+{% extends 'base.html' %} {% block title %} Books {% endblock title %} {% block
+search %}
+
+{% endblock search %} {% block body %}
+<div class="container my-3">
+  <h2>Book entry</h2>
+  <form action="/books" method="POST">
+    <div class="row my-3">
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Title"
+          name="title"
+          id="title"
+        />
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Author"
+          name="author"
+          id="author"
+        />
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="ISBN"
+          name="isbn"
+          id="isbn"
+        />
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Publisher"
+          name="publisher"
+          id="publisher"
+        />
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col">
+        <input
+          type="number"
+          class="form-control"
+          placeholder="Pages"
+          name="pages"
+          id="pages"
+        />
+      </div>
+      <div class="col">
+        <input
+          type="number"
+          class="form-control"
+          placeholder="Quantity"
+          name="quantity"
+          id="quantity"
+        />
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Import</button>
+  </form>
+</div>
+<div class="container my-3">
+  <h2>Books</h2>
+  {% if books.count() == 0 %}
+  <div class="alert alert-primary" role="alert">
+    No records to show
+  </div>
+        {% else %}
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Author</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            
+              {% for book in books %}
+              <tbody>
+              <tr>
+                <th scope="row">{{loop.index}}</th>
+                <td>{{book.id}}</td>
+                <td>{{book.title}}</td>
+                <td>{{book.author}}</td>
+                <td>{{book.quantity}}</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <form action="/books/update/{{ book.id }}" method="PUT" style="display:inline;">
+                            <input type="hidden" name="_method" value="UPDATE">
+                            <button type="submit" class="btn btn-primary" style="margin-right: 10px;">Update</button>
+                        </form>
+                        <form action="/books/{{ book.id }}" method="POST" style="display:inline;">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                        </form>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          {% endfor %}
+        </table>
+        {% endif %}
+
+</div>
+
+{% endblock body %}
