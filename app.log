@@ -1,0 +1,43 @@
+2024-09-06 16:28:44,199 - my_logger - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTYyMDMwNCwianRpIjoiMzdiZTg2NTItZjk3YS00ZjNhLTgyMTEtNzJkYWY0NmUyZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI1NjIwMzA0LCJjc3JmIjoiMDFkYmM4M2MtNGRjYS00ZDVmLTg5ODMtYTE3OGM3OTlhMWFlIiwiZXhwIjoxNzI1NjIxMjA0LCJ1c2VyX2lkIjozfQ.8buVs1bejsrjYfKG7h-G1ifMXvNMJqWHuKQ41_Pgxxk
+2024-09-06 16:28:44,202 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:28:44,204 - my_logger - INFO - 3
+2024-09-06 16:28:44,205 - my_logger - INFO - <Users 3 username='Animesh Sinha' password="'scrypt:32768:8:1...'" is_member=True>
+2024-09-06 16:28:44,209 - my_logger - INFO - Inside add book
+2024-09-06 16:28:44,213 - my_logger - INFO - <Authors 1 author_name='J K Rowling'>
+2024-09-06 16:28:44,217 - my_logger - INFO - <BookDetails 1 book_name='Harry Potter 3' authorID=1 isbn='23nbf7d45'>
+2024-09-06 16:28:44,223 - my_logger - INFO - <Books 1 status='available' issue_count=4 quantity=6 detailsID=1>
+2024-09-06 16:29:30,189 - my_logger - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTYyMDMwNCwianRpIjoiMzdiZTg2NTItZjk3YS00ZjNhLTgyMTEtNzJkYWY0NmUyZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI1NjIwMzA0LCJjc3JmIjoiMDFkYmM4M2MtNGRjYS00ZDVmLTg5ODMtYTE3OGM3OTlhMWFlIiwiZXhwIjoxNzI1NjIxMjA0LCJ1c2VyX2lkIjozfQ.8buVs1bejsrjYfKG7h-G1ifMXvNMJqWHuKQ41_Pgxxk
+2024-09-06 16:29:30,190 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:29:30,191 - my_logger - INFO - 3
+2024-09-06 16:29:30,192 - my_logger - INFO - <Users 3 username='Animesh Sinha' password="'scrypt:32768:8:1...'" is_member=True>
+2024-09-06 16:29:30,194 - my_logger - INFO - Inside add book
+2024-09-06 16:29:30,196 - my_logger - INFO - <Authors 1 author_name='J K Rowling'>
+2024-09-06 16:29:30,199 - my_logger - INFO - <BookDetails 1 book_name='Harry Potter 3' authorID=1 isbn='23nbf7d45'>
+2024-09-06 16:29:30,240 - my_logger - INFO - <Books 1 status='available' issue_count=4 quantity=10 detailsID=1>
+2024-09-06 16:29:33,739 - my_logger - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTYyMDMwNCwianRpIjoiMzdiZTg2NTItZjk3YS00ZjNhLTgyMTEtNzJkYWY0NmUyZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI1NjIwMzA0LCJjc3JmIjoiMDFkYmM4M2MtNGRjYS00ZDVmLTg5ODMtYTE3OGM3OTlhMWFlIiwiZXhwIjoxNzI1NjIxMjA0LCJ1c2VyX2lkIjozfQ.8buVs1bejsrjYfKG7h-G1ifMXvNMJqWHuKQ41_Pgxxk
+2024-09-06 16:29:33,741 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:29:33,742 - my_logger - INFO - 3
+2024-09-06 16:29:33,743 - my_logger - INFO - <Users 3 username='Animesh Sinha' password="'scrypt:32768:8:1...'" is_member=True>
+2024-09-06 16:29:33,745 - my_logger - INFO - Inside add book
+2024-09-06 16:29:33,747 - my_logger - INFO - <Authors 1 author_name='J K Rowling'>
+2024-09-06 16:29:33,749 - my_logger - INFO - <BookDetails 1 book_name='Harry Potter 3' authorID=1 isbn='23nbf7d45'>
+2024-09-06 16:29:33,791 - my_logger - INFO - <Books 1 status='available' issue_count=4 quantity=14 detailsID=1>
+2024-09-06 16:29:34,246 - my_logger - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTYyMDMwNCwianRpIjoiMzdiZTg2NTItZjk3YS00ZjNhLTgyMTEtNzJkYWY0NmUyZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI1NjIwMzA0LCJjc3JmIjoiMDFkYmM4M2MtNGRjYS00ZDVmLTg5ODMtYTE3OGM3OTlhMWFlIiwiZXhwIjoxNzI1NjIxMjA0LCJ1c2VyX2lkIjozfQ.8buVs1bejsrjYfKG7h-G1ifMXvNMJqWHuKQ41_Pgxxk
+2024-09-06 16:29:34,249 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:29:34,250 - my_logger - INFO - 3
+2024-09-06 16:29:34,251 - my_logger - INFO - <Users 3 username='Animesh Sinha' password="'scrypt:32768:8:1...'" is_member=True>
+2024-09-06 16:29:34,254 - my_logger - INFO - Inside add book
+2024-09-06 16:29:34,256 - my_logger - INFO - <Authors 1 author_name='J K Rowling'>
+2024-09-06 16:29:34,258 - my_logger - INFO - <BookDetails 1 book_name='Harry Potter 3' authorID=1 isbn='23nbf7d45'>
+2024-09-06 16:29:34,300 - my_logger - INFO - <Books 1 status='available' issue_count=4 quantity=18 detailsID=1>
+2024-09-06 16:37:28,900 - my_logger - INFO - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTU2OTI1MCwianRpIjoiNDcxMWRiMjQtNjc1NS00NDk5LWJlMzQtNzU1NzVlMTNhYThiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MiwibmJmIjoxNzI1NTY5MjUwLCJjc3JmIjoiNWE3NjFmZDAtNmExYy00OTliLTkzNGUtMDQyMzliNzgzMzNiIiwiZXhwIjoxNzI1NTcwMTUwLCJ1c2VybmFtZSI6IlN1cmFqIn0.DOvlMRQ2b4NXaCNNzM9ibnrOz1mdSRsUL7ExlErCedI
+2024-09-06 16:37:28,903 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:37:28,905 - my_logger - ERROR - Invalid header padding
+2024-09-06 16:38:34,261 - my_logger - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyNTYyMDMwNCwianRpIjoiMzdiZTg2NTItZjk3YS00ZjNhLTgyMTEtNzJkYWY0NmUyZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI1NjIwMzA0LCJjc3JmIjoiMDFkYmM4M2MtNGRjYS00ZDVmLTg5ODMtYTE3OGM3OTlhMWFlIiwiZXhwIjoxNzI1NjIxMjA0LCJ1c2VyX2lkIjozfQ.8buVs1bejsrjYfKG7h-G1ifMXvNMJqWHuKQ41_Pgxxk
+2024-09-06 16:38:34,265 - my_logger - INFO - 78909876fghjnbvfvb
+2024-09-06 16:38:34,265 - my_logger - INFO - 3
+2024-09-06 16:38:34,267 - my_logger - INFO - <Users 3 username='Animesh Sinha' password="'scrypt:32768:8:1...'" is_member=True>
+2024-09-06 16:38:34,269 - my_logger - INFO - Inside add book
+2024-09-06 16:38:34,273 - my_logger - INFO - <Authors 1 author_name='J K Rowling'>
+2024-09-06 16:38:34,318 - my_logger - INFO - <BookDetails 4 book_name='Harry Potter 3' authorID=1 isbn='23nbf7d476'>
+2024-09-06 16:38:34,324 - my_logger - INFO - <Books 4 status='available' issue_count=0 quantity=4 detailsID=4>
